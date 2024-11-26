@@ -1,0 +1,229 @@
+/* ===== Estilos Gerais ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo global */
+}
+
+/* ===== Cabeçalho ===== */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 10px 0;
+}
+
+header .titulo h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header .menu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ===== Logo no Menu ===== */
+.logo img {
+    width: 40px; /* Ajuste a largura da imagem da logo */
+    height: 40px; /* Ajuste a altura da imagem da logo */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaço entre a logo e o menu de navegação */
+}
+
+/* ===== Menu de Navegação ===== */
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    text-align: center; /* Alinha os itens do menu ao centro */
+    padding: 10px; /* Espaçamento do menu */
+}
+
+nav a {
+    color: white; /* Cor dos links */
+    padding: 10px 20px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Faz os links ficarem em linha */
+}
+
+/* ===== Efeito de Hover para os Links do Menu ===== */
+nav a:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+}
+
+/* ===== Destaque para a Página Ativa ===== */
+nav a.active {
+    background-color: #007BFF; /* Destaque da página atual */
+}
+
+/* ===== Estilos do Conteúdo Principal ===== */
+main {
+    margin: 20px;
+}
+
+/* ===== Seções de Conteúdo ===== */
+section {
+    margin-bottom: 20px;
+}
+
+/* ===== Estilo dos Botões ===== */
+.botao button {
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove borda do botão */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.botao button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* ===== Rodapé ===== */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* ===== Estilos para Formulários ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos */
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ===== Estilos para Tabelas ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* ===== Estilos Específicos para as Páginas ===== */
+
+/* Página de Inscrição */
+.inscricao {
+    text-align: center;
+}
+
+.inscricao h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.inscricao form {
+    display: inline-block;
+    text-align: left;
+}
+
+/* ===== Estilo para Feedback ===== */
+.Feedback {
+    text-align: center;
+}
+
+.Feedback h1 {
+    margin-bottom: 10px;
+}
+
+/* ===== Estilo para a Página de Palestrantes ===== */
+.sobre-palestrantes {
+    text-align: center;
+}
+
+.sobre-palestrantes dl {
+    margin-top: 20px;
+}
+
+.sobre-palestrantes dt {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sobre-palestrantes dd {
+    margin-bottom: 10px;
+}
+
+/* ===== Estilos para a Tabela de Atividades ===== */
+.tabela {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tabela table {
+    margin: 0 auto;
+}
+
+/* ===== Seções Específicas do Conteúdo ===== */
+.inscricaoConcluida, .saibaMais {
+    text-align: center;
+}
+
+/* ===== Estilo do Formulário de Contato ===== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.contact-form button {
+    align-self: center;
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
